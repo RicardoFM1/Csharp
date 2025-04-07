@@ -12,3 +12,4 @@ C:\Users\RICARDOFERNANDESDEMO\OneDrive - SenacRS\Área de Trabalho\C#\Aula 5\Aul
 C:\Users\RICARDOFERNANDESDEMO\OneDrive - SenacRS\Área de Trabalho\C#\Aula 5\Aula 5\obj\Debug\net8.0\Aula 5.pdb
 C:\Users\RICARDOFERNANDESDEMO\OneDrive - SenacRS\Área de Trabalho\C#\Aula 5\Aula 5\obj\Debug\net8.0\Aula 5.genruntimeconfig.cache
 C:\Users\RICARDOFERNANDESDEMO\OneDrive - SenacRS\Área de Trabalho\C#\Aula 5\Aula 5\obj\Debug\net8.0\ref\Aula 5.dll
+C:\Users\RICARDOFERNANDESDEMO\OneDrive - SenacRS\Área de Trabalho\C#\Aula 5\Aula 5\obj\Debug\net8.0\Aula 5.sourcelink.json
