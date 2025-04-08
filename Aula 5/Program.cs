@@ -70,38 +70,38 @@
 
 // ATIVIDADE 3:
 
-using System;
+//using System;
 
-namespace aula5
-{
-    class program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Digite quantos alunos têm na academia:");
+//namespace aula5
+//{
+//    class program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Console.WriteLine("Digite quantos alunos têm na academia:");
             
             
-                int numerosAlunos = int.Parse(Console.ReadLine());
+//                int numerosAlunos = int.Parse(Console.ReadLine());
           
             
             
-                int i = 1;
-                int peso = 0;
-            int Media = 0;
-            int aux = numerosAlunos;
+//                int i = 1;
+//                int peso = 0;
+//            int Media = 0;
+//            int aux = numerosAlunos;
                     
-                    while (i <= numerosAlunos)
-                    {
-                        Console.WriteLine("digite o peso do aluno");
-                        peso += int.Parse(Console.ReadLine());
+//                    while (i <= numerosAlunos)
+//                    {
+//                        Console.WriteLine("digite o peso do aluno");
+//                        peso += int.Parse(Console.ReadLine());
                         
                         
-                    numerosAlunos--;
+//                    numerosAlunos--;
 
-                    }
-                        Console.WriteLine("a soma do peso dos alunos é: " + peso);
-            Media = peso / aux;
-            Console.WriteLine("A média do peso dos alunos é: " + Media);
+//                    }
+//                        Console.WriteLine("a soma do peso dos alunos é: " + peso);
+//            Media = peso / aux;
+//            Console.WriteLine("A média do peso dos alunos é: " + Media);
             
 
                 
@@ -110,10 +110,35 @@ namespace aula5
 
             
      
-            }
-        }
-    //}
-}
+//            }
+//        }
+//}
 
 // ATIVIDADE 4: 
 
+using System;
+using System.ComponentModel;
+
+namespace aula5
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite um número para calcular o fatorial:");
+            int numero = int.Parse(Console.ReadLine());
+
+            int fatorial = 1;
+            for(int i = 1; i <= numero; i++) {
+            fatorial *= i;
+
+            }
+            for (int i = 1; i <= 10; i++)
+            {
+                int resultado = fatorial * i;
+                Console.WriteLine($"{i} x fatorial de {numero} = {resultado}");
+            }
+            Console.WriteLine("Calculo concluído");
+        }
+    }
+}
