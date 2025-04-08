@@ -2,7 +2,7 @@
 
 //using System;
 
-//namespace atividades
+//namespace aula5
 //{
 //    class program
 //    {
@@ -21,69 +21,99 @@
 
 // ATIVIDADE 2:
 
-using System;
-
-namespace atividades
-{
-    class program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Digite um número inteiro:");
-            if (int.TryParse(Console.ReadLine(), out int numero) && numero > 0)
-            {
-
-                int somaPares = 0;
-                long ProdutoImpares = 1;
-                bool temImpar = false;
-                int i = 1;
-
-                Console.WriteLine("Contando de 1 até " + numero + ":");
-                while (i <= numero)
-                {
-                    Console.WriteLine(i);
-
-                    if (i % 2 == 0)
-                    {
-                        somaPares += i;
-                    }
-                    else
-                    {
-                        ProdutoImpares *= i;
-                        temImpar = true;
-                    }
-                    i++;
-
-                }
-                Console.WriteLine("\nA soma dos pares no intervalo do seu número é: " + somaPares);
-                Console.WriteLine("Produto dos números ímpares no intervalo: " + (temImpar ? ProdutoImpares : 0));
-
-            }
-            else
-            {
-                Console.WriteLine("Insira um valor inteiro positivo válido.");
-            }
-        }
-
-    }
-}
 //using System;
 
-//namespace atividades
+//namespace aula5
 //{
 //    class program
 //    {
 //        static void Main(string[] args)
 //        {
-//            int numero = 0;
-//            while (numero <= 10)
+//            Console.WriteLine("Digite um número inteiro:");
+//            if (int.TryParse(Console.ReadLine(), out int numero) && numero > 0)
 //            {
-//                Console.WriteLine(numero);
-//                numero++;
-                
-               
+
+//                int somaPares = 0;
+//                long ProdutoImpares = 1;
+//                bool temImpar = false;
+//                int i = 1;
+
+//                Console.WriteLine("Contando de 1 até " + numero + ":");
+//                while (i <= numero)
+//                {
+//                    Console.WriteLine(i);
+
+//                    if (i % 2 == 0)
+//                    {
+//                        somaPares += i;
+//                    }
+//                    else
+//                    {
+//                        ProdutoImpares *= i;
+//                        temImpar = true;
+//                    }
+//                    i++;
+
+//                }
+//                Console.WriteLine("\nA soma dos pares no intervalo do seu número é: " + somaPares);
+//                Console.WriteLine("Produto dos números ímpares no intervalo: " + (temImpar ? ProdutoImpares : 0));
+
+//            }
+//            else
+//            {
+//                Console.WriteLine("Insira um valor inteiro positivo válido.");
 //            }
 //        }
+
 //    }
 //}
+
+// ATIVIDADE 3:
+
+using System;
+
+namespace aula5
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite quantos alunos têm na academia:");
+            
+            
+                int numerosAlunos = int.Parse(Console.ReadLine());
+          
+            
+            
+                int i = 1;
+                int peso = 0;
+            int Media = 0;
+            int aux = numerosAlunos;
+                    
+                    while (i <= numerosAlunos)
+                    {
+                        Console.WriteLine("digite o peso do aluno");
+                        peso += int.Parse(Console.ReadLine());
+                        
+                        
+                    numerosAlunos--;
+
+                    }
+                        Console.WriteLine("a soma do peso dos alunos é: " + peso);
+            Media = peso / aux;
+            Console.WriteLine("A média do peso dos alunos é: " + Media);
+            
+
+                
+
+            
+
+            
+     
+            }
+        }
+    //}
+}
+
+// ATIVIDADE 4: 
 
